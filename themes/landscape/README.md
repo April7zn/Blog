@@ -30,9 +30,9 @@ git pull
 ``` yml
 # Header
 menu:
-  Home: /
-  Archives: /archives
-rss: /atom.xml
+  ##Home: /
+  ##Archives: /archives
+##rss: /atom.xml
 
 # Content
 excerpt_link: Read More

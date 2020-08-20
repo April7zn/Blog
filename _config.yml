@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Hopesource
 subtitle: ''
-description: ''
+description: 'Java'
 keywords:
-author: John Doe
-language: en
+author: April7zn
+language: zh-CN
 timezone: ''
 
 # URL
@@ -67,9 +67,13 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+# default_category: uncategorized
 category_map:
+  工具: tools
+  开发日志: logs
+  网络学习: network
 tag_map:
+  java: java
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -106,3 +110,8 @@ deploy:
   type: 'git'
   repo: https://github.com/April7zn/april7zn.github.io
   branch: master
+# hexo-admin authentification
+admin:
+  username: zn
+  password_hash: $2a$10$YFuRClyx/gnIsikVfwmZ9OrAQoDu6XCMtfFAFko3aSti.IwCYqyiW
+  secret: qCheUWulK5gKqQ4bie1SzERQrCD1srKk+5MuhydCcA8=
